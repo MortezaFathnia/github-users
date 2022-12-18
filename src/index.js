@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import { GithubProvider } from './context/context';
 import { Auth0Provider } from '@auth0/auth0-react';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//dev-lt95zwdc.us.auth0.com
+//EVwwEMfF8zglOGnyL6u9tFBSoWYJLORs
+
 root.render(
   <React.StrictMode>
     <GithubProvider>
